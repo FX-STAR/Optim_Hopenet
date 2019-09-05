@@ -1,0 +1,5 @@
+*v3_large_alpha1  17 MAE=6.625 lr=le-3 end=1e-6
+
+*v3_small_alpha1  26 MAE=6.789 lr=1e-2 end=1e-6
+
+*v2_alpha1        18 MAE=6.963 lr=1e-3 end=1e-6

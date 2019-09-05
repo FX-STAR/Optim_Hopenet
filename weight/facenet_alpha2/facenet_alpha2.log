@@ -1,0 +1,201 @@
+nohup: ignoring input
+Namespace(alpha=2.0, anno_txt='./data/300W_LP_pose.txt', bs=256, dataset='/home/lfx/Data/300W_LP', epochs=30, gpu=4, log_interval=100, lr=0.001, lr_decay_epoch='10, 15, 20', lr_type='cos', momentum=0.9, net='facenet', num_workers=6, prefix='facenet_alpha2', save='./weight', use_fc=1, version='small', wd=4e-05, weights='', width_mult=1.0)
+[15:49:45] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:97: Running performance tests to find the best convolution algorithm, this can take a while... (set the environment variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+Epoch[000] Batch[099/478] Speed: 592.31 samples/sec, Loss:(pitch, yaw, roll)/(183.986, 749.437, 126.909)
+Epoch[000] Batch[199/478] Speed: 700.93 samples/sec, Loss:(pitch, yaw, roll)/(152.330, 483.209, 111.084)
+Epoch[000] Batch[299/478] Speed: 680.64 samples/sec, Loss:(pitch, yaw, roll)/(135.774, 372.291, 100.564)
+Epoch[000] Batch[399/478] Speed: 684.88 samples/sec, Loss:(pitch, yaw, roll)/(124.708, 304.473, 93.177)
+Epoch[000] train: MAE:(pitch, yaw, roll, mean)/(7.482, 10.630, 6.005, 8.039), Cost=192 sec, lr=0.000997
+Epoch[000] val  : MAE:(pitch, yaw, roll, mean)/(10.483, 13.195, 9.742, 11.140), Loss:(pitch, yaw, roll)/(270.518, 386.605, 300.369)
+Min val mean MAE! save model!
+Epoch[001] Batch[099/478] Speed: 668.47 samples/sec, Loss:(pitch, yaw, roll)/(81.624, 77.234, 63.759)
+Epoch[001] Batch[199/478] Speed: 689.90 samples/sec, Loss:(pitch, yaw, roll)/(78.412, 67.575, 61.213)
+Epoch[001] Batch[299/478] Speed: 688.81 samples/sec, Loss:(pitch, yaw, roll)/(75.568, 64.954, 58.911)
+Epoch[001] Batch[399/478] Speed: 684.63 samples/sec, Loss:(pitch, yaw, roll)/(74.269, 62.283, 58.119)
+Epoch[001] train: MAE:(pitch, yaw, roll, mean)/(5.556, 5.515, 4.418, 5.163), Cost=182 sec, lr=0.000987
+Epoch[001] val  : MAE:(pitch, yaw, roll, mean)/(9.210, 12.636, 8.755, 10.201), Loss:(pitch, yaw, roll)/(237.469, 396.901, 269.997)
+Min val mean MAE! save model!
+Epoch[002] Batch[099/478] Speed: 660.20 samples/sec, Loss:(pitch, yaw, roll)/(69.703, 57.716, 54.943)
+Epoch[002] Batch[199/478] Speed: 696.19 samples/sec, Loss:(pitch, yaw, roll)/(67.019, 53.607, 52.313)
+Epoch[002] Batch[299/478] Speed: 684.40 samples/sec, Loss:(pitch, yaw, roll)/(65.508, 49.855, 51.483)
+Epoch[002] Batch[399/478] Speed: 682.17 samples/sec, Loss:(pitch, yaw, roll)/(65.195, 50.863, 51.198)
+Epoch[002] train: MAE:(pitch, yaw, roll, mean)/(5.105, 4.913, 4.009, 4.675), Cost=182 sec, lr=0.000970
+Epoch[002] val  : MAE:(pitch, yaw, roll, mean)/(9.019, 10.441, 7.308, 8.923), Loss:(pitch, yaw, roll)/(222.024, 278.923, 226.929)
+Min val mean MAE! save model!
+Epoch[003] Batch[099/478] Speed: 658.62 samples/sec, Loss:(pitch, yaw, roll)/(59.725, 37.943, 47.751)
+Epoch[003] Batch[199/478] Speed: 682.69 samples/sec, Loss:(pitch, yaw, roll)/(56.864, 39.057, 45.286)
+Epoch[003] Batch[299/478] Speed: 685.54 samples/sec, Loss:(pitch, yaw, roll)/(57.641, 40.538, 45.826)
+Epoch[003] Batch[399/478] Speed: 682.33 samples/sec, Loss:(pitch, yaw, roll)/(57.412, 39.568, 45.267)
+Epoch[003] train: MAE:(pitch, yaw, roll, mean)/(4.749, 4.491, 3.701, 4.314), Cost=183 sec, lr=0.000947
+Epoch[003] val  : MAE:(pitch, yaw, roll, mean)/(9.218, 10.450, 7.361, 9.010), Loss:(pitch, yaw, roll)/(222.596, 280.041, 220.295)
+Epoch[004] Batch[099/478] Speed: 653.30 samples/sec, Loss:(pitch, yaw, roll)/(52.845, 31.017, 42.397)
+Epoch[004] Batch[199/478] Speed: 681.66 samples/sec, Loss:(pitch, yaw, roll)/(52.988, 33.212, 42.228)
+Epoch[004] Batch[299/478] Speed: 615.70 samples/sec, Loss:(pitch, yaw, roll)/(53.592, 34.328, 43.093)
+Epoch[004] Batch[399/478] Speed: 688.69 samples/sec, Loss:(pitch, yaw, roll)/(52.604, 34.538, 42.280)
+Epoch[004] train: MAE:(pitch, yaw, roll, mean)/(4.476, 4.313, 3.527, 4.105), Cost=187 sec, lr=0.000918
+Epoch[004] val  : MAE:(pitch, yaw, roll, mean)/(8.804, 9.373, 6.575, 8.251), Loss:(pitch, yaw, roll)/(206.411, 233.650, 197.306)
+Min val mean MAE! save model!
+Epoch[005] Batch[099/478] Speed: 661.31 samples/sec, Loss:(pitch, yaw, roll)/(47.385, 30.255, 38.342)
+Epoch[005] Batch[199/478] Speed: 686.64 samples/sec, Loss:(pitch, yaw, roll)/(49.771, 34.141, 39.799)
+Epoch[005] Batch[299/478] Speed: 685.04 samples/sec, Loss:(pitch, yaw, roll)/(49.613, 33.473, 39.627)
+Epoch[005] Batch[399/478] Speed: 683.34 samples/sec, Loss:(pitch, yaw, roll)/(50.672, 34.587, 40.547)
+Epoch[005] train: MAE:(pitch, yaw, roll, mean)/(4.395, 4.223, 3.482, 4.033), Cost=182 sec, lr=0.000883
+Epoch[005] val  : MAE:(pitch, yaw, roll, mean)/(7.997, 10.482, 6.951, 8.476), Loss:(pitch, yaw, roll)/(192.772, 263.535, 208.796)
+Epoch[006] Batch[099/478] Speed: 660.01 samples/sec, Loss:(pitch, yaw, roll)/(46.562, 29.849, 37.513)
+Epoch[006] Batch[199/478] Speed: 689.96 samples/sec, Loss:(pitch, yaw, roll)/(48.026, 30.136, 38.405)
+Epoch[006] Batch[299/478] Speed: 683.55 samples/sec, Loss:(pitch, yaw, roll)/(48.277, 29.683, 38.872)
+Epoch[006] Batch[399/478] Speed: 683.42 samples/sec, Loss:(pitch, yaw, roll)/(48.567, 30.787, 38.806)
+Epoch[006] train: MAE:(pitch, yaw, roll, mean)/(4.293, 4.064, 3.406, 3.921), Cost=183 sec, lr=0.000843
+Epoch[006] val  : MAE:(pitch, yaw, roll, mean)/(8.284, 9.537, 6.759, 8.193), Loss:(pitch, yaw, roll)/(191.503, 242.500, 202.358)
+Min val mean MAE! save model!
+Epoch[007] Batch[099/478] Speed: 657.91 samples/sec, Loss:(pitch, yaw, roll)/(45.570, 30.116, 36.869)
+Epoch[007] Batch[199/478] Speed: 684.89 samples/sec, Loss:(pitch, yaw, roll)/(42.487, 28.407, 33.960)
+Epoch[007] Batch[299/478] Speed: 675.11 samples/sec, Loss:(pitch, yaw, roll)/(43.821, 28.822, 35.348)
+Epoch[007] Batch[399/478] Speed: 681.48 samples/sec, Loss:(pitch, yaw, roll)/(44.421, 28.148, 36.025)
+Epoch[007] train: MAE:(pitch, yaw, roll, mean)/(4.073, 3.919, 3.232, 3.741), Cost=183 sec, lr=0.000799
+Epoch[007] val  : MAE:(pitch, yaw, roll, mean)/(8.147, 11.502, 6.710, 8.786), Loss:(pitch, yaw, roll)/(192.536, 326.380, 193.479)
+Epoch[008] Batch[099/478] Speed: 658.41 samples/sec, Loss:(pitch, yaw, roll)/(42.739, 29.199, 35.928)
+Epoch[008] Batch[199/478] Speed: 690.90 samples/sec, Loss:(pitch, yaw, roll)/(43.551, 29.769, 36.090)
+Epoch[008] Batch[299/478] Speed: 683.86 samples/sec, Loss:(pitch, yaw, roll)/(43.612, 28.300, 35.858)
+Epoch[008] Batch[399/478] Speed: 682.79 samples/sec, Loss:(pitch, yaw, roll)/(43.220, 27.900, 35.438)
+Epoch[008] train: MAE:(pitch, yaw, roll, mean)/(4.007, 3.935, 3.189, 3.710), Cost=182 sec, lr=0.000750
+Epoch[008] val  : MAE:(pitch, yaw, roll, mean)/(7.915, 8.980, 6.347, 7.747), Loss:(pitch, yaw, roll)/(183.475, 215.834, 189.829)
+Min val mean MAE! save model!
+Epoch[009] Batch[099/478] Speed: 658.82 samples/sec, Loss:(pitch, yaw, roll)/(42.898, 28.097, 34.105)
+Epoch[009] Batch[199/478] Speed: 684.15 samples/sec, Loss:(pitch, yaw, roll)/(42.956, 27.202, 34.607)
+Epoch[009] Batch[299/478] Speed: 687.33 samples/sec, Loss:(pitch, yaw, roll)/(42.654, 28.015, 34.577)
+Epoch[009] Batch[399/478] Speed: 686.75 samples/sec, Loss:(pitch, yaw, roll)/(43.166, 28.937, 34.889)
+Epoch[009] train: MAE:(pitch, yaw, roll, mean)/(3.997, 3.957, 3.169, 3.708), Cost=182 sec, lr=0.000698
+Epoch[009] val  : MAE:(pitch, yaw, roll, mean)/(7.788, 8.545, 6.346, 7.560), Loss:(pitch, yaw, roll)/(185.337, 223.819, 188.430)
+Min val mean MAE! save model!
+Epoch[010] Batch[099/478] Speed: 663.79 samples/sec, Loss:(pitch, yaw, roll)/(38.784, 25.883, 32.773)
+Epoch[010] Batch[199/478] Speed: 686.55 samples/sec, Loss:(pitch, yaw, roll)/(40.089, 25.653, 33.386)
+Epoch[010] Batch[299/478] Speed: 701.38 samples/sec, Loss:(pitch, yaw, roll)/(40.461, 26.633, 33.758)
+Epoch[010] Batch[399/478] Speed: 702.74 samples/sec, Loss:(pitch, yaw, roll)/(40.167, 26.897, 33.435)
+Epoch[010] train: MAE:(pitch, yaw, roll, mean)/(3.816, 3.881, 3.069, 3.589), Cost=180 sec, lr=0.000643
+Epoch[010] val  : MAE:(pitch, yaw, roll, mean)/(8.092, 7.633, 6.403, 7.376), Loss:(pitch, yaw, roll)/(189.771, 172.414, 184.416)
+Min val mean MAE! save model!
+Epoch[011] Batch[099/478] Speed: 675.17 samples/sec, Loss:(pitch, yaw, roll)/(35.931, 25.681, 29.535)
+Epoch[011] Batch[199/478] Speed: 704.74 samples/sec, Loss:(pitch, yaw, roll)/(37.884, 26.846, 31.537)
+Epoch[011] Batch[299/478] Speed: 705.83 samples/sec, Loss:(pitch, yaw, roll)/(38.003, 25.826, 31.631)
+Epoch[011] Batch[399/478] Speed: 703.48 samples/sec, Loss:(pitch, yaw, roll)/(37.959, 25.729, 31.525)
+Epoch[011] train: MAE:(pitch, yaw, roll, mean)/(3.728, 3.747, 2.984, 3.486), Cost=177 sec, lr=0.000587
+Epoch[011] val  : MAE:(pitch, yaw, roll, mean)/(7.977, 9.634, 6.695, 8.102), Loss:(pitch, yaw, roll)/(186.409, 223.262, 194.190)
+Epoch[012] Batch[099/478] Speed: 686.14 samples/sec, Loss:(pitch, yaw, roll)/(35.217, 25.981, 29.815)
+Epoch[012] Batch[199/478] Speed: 706.32 samples/sec, Loss:(pitch, yaw, roll)/(35.978, 25.080, 30.168)
+Epoch[012] Batch[299/478] Speed: 706.05 samples/sec, Loss:(pitch, yaw, roll)/(36.007, 24.558, 30.333)
+Epoch[012] Batch[399/478] Speed: 706.78 samples/sec, Loss:(pitch, yaw, roll)/(36.189, 24.469, 30.514)
+Epoch[012] train: MAE:(pitch, yaw, roll, mean)/(3.587, 3.681, 2.897, 3.389), Cost=176 sec, lr=0.000529
+Epoch[012] val  : MAE:(pitch, yaw, roll, mean)/(8.058, 8.789, 6.403, 7.750), Loss:(pitch, yaw, roll)/(192.331, 216.320, 189.745)
+Epoch[013] Batch[099/478] Speed: 679.20 samples/sec, Loss:(pitch, yaw, roll)/(33.055, 24.154, 28.107)
+Epoch[013] Batch[199/478] Speed: 709.72 samples/sec, Loss:(pitch, yaw, roll)/(32.712, 22.027, 27.687)
+Epoch[013] Batch[299/478] Speed: 701.03 samples/sec, Loss:(pitch, yaw, roll)/(33.204, 22.544, 27.929)
+Epoch[013] Batch[399/478] Speed: 706.19 samples/sec, Loss:(pitch, yaw, roll)/(33.656, 22.377, 28.478)
+Epoch[013] train: MAE:(pitch, yaw, roll, mean)/(3.507, 3.577, 2.855, 3.313), Cost=177 sec, lr=0.000471
+Epoch[013] val  : MAE:(pitch, yaw, roll, mean)/(7.563, 8.330, 6.112, 7.335), Loss:(pitch, yaw, roll)/(174.757, 187.585, 178.348)
+Min val mean MAE! save model!
+Epoch[014] Batch[099/478] Speed: 682.01 samples/sec, Loss:(pitch, yaw, roll)/(32.908, 21.177, 27.841)
+Epoch[014] Batch[199/478] Speed: 707.21 samples/sec, Loss:(pitch, yaw, roll)/(32.105, 22.470, 27.024)
+Epoch[014] Batch[299/478] Speed: 704.67 samples/sec, Loss:(pitch, yaw, roll)/(31.667, 22.678, 26.502)
+Epoch[014] Batch[399/478] Speed: 705.99 samples/sec, Loss:(pitch, yaw, roll)/(31.625, 22.824, 26.589)
+Epoch[014] train: MAE:(pitch, yaw, roll, mean)/(3.406, 3.549, 2.770, 3.242), Cost=177 sec, lr=0.000413
+Epoch[014] val  : MAE:(pitch, yaw, roll, mean)/(7.697, 7.862, 6.193, 7.251), Loss:(pitch, yaw, roll)/(178.328, 170.596, 178.127)
+Min val mean MAE! save model!
+Epoch[015] Batch[099/478] Speed: 679.61 samples/sec, Loss:(pitch, yaw, roll)/(31.036, 24.528, 25.952)
+Epoch[015] Batch[199/478] Speed: 689.46 samples/sec, Loss:(pitch, yaw, roll)/(29.359, 22.451, 24.401)
+Epoch[015] Batch[299/478] Speed: 685.08 samples/sec, Loss:(pitch, yaw, roll)/(29.765, 23.394, 24.810)
+Epoch[015] Batch[399/478] Speed: 700.63 samples/sec, Loss:(pitch, yaw, roll)/(30.219, 23.689, 25.421)
+Epoch[015] train: MAE:(pitch, yaw, roll, mean)/(3.343, 3.661, 2.720, 3.241), Cost=179 sec, lr=0.000357
+Epoch[015] val  : MAE:(pitch, yaw, roll, mean)/(7.723, 7.882, 6.276, 7.294), Loss:(pitch, yaw, roll)/(183.702, 198.154, 183.595)
+Epoch[016] Batch[099/478] Speed: 682.71 samples/sec, Loss:(pitch, yaw, roll)/(28.609, 21.723, 24.525)
+Epoch[016] Batch[199/478] Speed: 688.49 samples/sec, Loss:(pitch, yaw, roll)/(28.278, 20.831, 23.925)
+Epoch[016] Batch[299/478] Speed: 688.14 samples/sec, Loss:(pitch, yaw, roll)/(28.372, 20.258, 24.133)
+Epoch[016] Batch[399/478] Speed: 685.12 samples/sec, Loss:(pitch, yaw, roll)/(28.405, 21.170, 24.128)
+Epoch[016] train: MAE:(pitch, yaw, roll, mean)/(3.228, 3.469, 2.642, 3.113), Cost=181 sec, lr=0.000302
+Epoch[016] val  : MAE:(pitch, yaw, roll, mean)/(7.673, 7.915, 6.235, 7.274), Loss:(pitch, yaw, roll)/(170.951, 176.381, 177.668)
+Epoch[017] Batch[099/478] Speed: 663.33 samples/sec, Loss:(pitch, yaw, roll)/(28.730, 24.116, 24.274)
+Epoch[017] Batch[199/478] Speed: 687.15 samples/sec, Loss:(pitch, yaw, roll)/(27.770, 22.512, 23.547)
+Epoch[017] Batch[299/478] Speed: 682.49 samples/sec, Loss:(pitch, yaw, roll)/(27.587, 21.487, 23.450)
+Epoch[017] Batch[399/478] Speed: 683.05 samples/sec, Loss:(pitch, yaw, roll)/(27.038, 21.281, 22.791)
+Epoch[017] train: MAE:(pitch, yaw, roll, mean)/(3.150, 3.454, 2.588, 3.064), Cost=183 sec, lr=0.000250
+Epoch[017] val  : MAE:(pitch, yaw, roll, mean)/(7.717, 8.280, 6.200, 7.399), Loss:(pitch, yaw, roll)/(178.084, 189.014, 178.905)
+Epoch[018] Batch[099/478] Speed: 662.65 samples/sec, Loss:(pitch, yaw, roll)/(25.253, 17.685, 20.571)
+Epoch[018] Batch[199/478] Speed: 695.21 samples/sec, Loss:(pitch, yaw, roll)/(26.202, 18.160, 21.765)
+Epoch[018] Batch[299/478] Speed: 705.75 samples/sec, Loss:(pitch, yaw, roll)/(25.105, 18.375, 20.801)
+Epoch[018] Batch[399/478] Speed: 273.85 samples/sec, Loss:(pitch, yaw, roll)/(25.237, 18.458, 21.144)
+Epoch[018] train: MAE:(pitch, yaw, roll, mean)/(3.069, 3.217, 2.488, 2.925), Cost=581 sec, lr=0.000202
+Epoch[018] val  : MAE:(pitch, yaw, roll, mean)/(7.573, 8.679, 6.184, 7.479), Loss:(pitch, yaw, roll)/(177.492, 203.211, 188.971)
+Epoch[019] Batch[099/478] Speed: 167.25 samples/sec, Loss:(pitch, yaw, roll)/(22.807, 19.672, 19.093)
+Epoch[019] Batch[199/478] Speed: 246.07 samples/sec, Loss:(pitch, yaw, roll)/(23.610, 20.778, 19.817)
+Epoch[019] Batch[299/478] Speed: 316.32 samples/sec, Loss:(pitch, yaw, roll)/(23.749, 20.805, 20.063)
+Epoch[019] Batch[399/478] Speed: 528.83 samples/sec, Loss:(pitch, yaw, roll)/(23.817, 20.756, 20.110)
+Epoch[019] train: MAE:(pitch, yaw, roll, mean)/(2.969, 3.434, 2.423, 2.942), Cost=416 sec, lr=0.000157
+Epoch[019] val  : MAE:(pitch, yaw, roll, mean)/(7.541, 8.176, 6.034, 7.250), Loss:(pitch, yaw, roll)/(175.796, 165.627, 174.236)
+Min val mean MAE! save model!
+Epoch[020] Batch[099/478] Speed: 693.41 samples/sec, Loss:(pitch, yaw, roll)/(21.175, 18.551, 18.006)
+Epoch[020] Batch[199/478] Speed: 709.08 samples/sec, Loss:(pitch, yaw, roll)/(21.945, 21.266, 18.412)
+Epoch[020] Batch[299/478] Speed: 716.53 samples/sec, Loss:(pitch, yaw, roll)/(22.330, 20.663, 18.910)
+Epoch[020] Batch[399/478] Speed: 714.37 samples/sec, Loss:(pitch, yaw, roll)/(21.771, 21.252, 18.368)
+Epoch[020] train: MAE:(pitch, yaw, roll, mean)/(2.875, 3.464, 2.363, 2.901), Cost=174 sec, lr=0.000117
+Epoch[020] val  : MAE:(pitch, yaw, roll, mean)/(7.484, 8.609, 6.035, 7.376), Loss:(pitch, yaw, roll)/(175.290, 190.696, 176.106)
+Epoch[021] Batch[099/478] Speed: 706.70 samples/sec, Loss:(pitch, yaw, roll)/(20.741, 23.387, 17.412)
+Epoch[021] Batch[199/478] Speed: 709.68 samples/sec, Loss:(pitch, yaw, roll)/(20.393, 21.677, 16.908)
+Epoch[021] Batch[299/478] Speed: 699.90 samples/sec, Loss:(pitch, yaw, roll)/(20.631, 20.009, 17.171)
+Epoch[021] Batch[399/478] Speed: 694.86 samples/sec, Loss:(pitch, yaw, roll)/(20.803, 20.139, 17.409)
+Epoch[021] train: MAE:(pitch, yaw, roll, mean)/(2.808, 3.359, 2.305, 2.824), Cost=177 sec, lr=0.000083
+Epoch[021] val  : MAE:(pitch, yaw, roll, mean)/(7.419, 7.919, 5.918, 7.085), Loss:(pitch, yaw, roll)/(171.075, 163.203, 173.075)
+Min val mean MAE! save model!
+Epoch[022] Batch[099/478] Speed: 702.88 samples/sec, Loss:(pitch, yaw, roll)/(19.797, 18.539, 16.530)
+Epoch[022] Batch[199/478] Speed: 714.66 samples/sec, Loss:(pitch, yaw, roll)/(19.513, 18.803, 16.495)
+Epoch[022] Batch[299/478] Speed: 721.12 samples/sec, Loss:(pitch, yaw, roll)/(19.385, 19.112, 16.327)
+Epoch[022] Batch[399/478] Speed: 710.30 samples/sec, Loss:(pitch, yaw, roll)/(19.415, 19.164, 16.293)
+Epoch[022] train: MAE:(pitch, yaw, roll, mean)/(2.742, 3.313, 2.268, 2.775), Cost=174 sec, lr=0.000054
+Epoch[022] val  : MAE:(pitch, yaw, roll, mean)/(7.447, 7.718, 5.968, 7.044), Loss:(pitch, yaw, roll)/(171.303, 160.117, 173.423)
+Min val mean MAE! save model!
+Epoch[023] Batch[099/478] Speed: 271.48 samples/sec, Loss:(pitch, yaw, roll)/(18.172, 20.459, 15.016)
+Epoch[023] Batch[199/478] Speed: 277.16 samples/sec, Loss:(pitch, yaw, roll)/(18.588, 19.640, 15.598)
+Epoch[023] Batch[299/478] Speed: 272.38 samples/sec, Loss:(pitch, yaw, roll)/(18.794, 19.234, 15.801)
+Epoch[023] Batch[399/478] Speed: 291.31 samples/sec, Loss:(pitch, yaw, roll)/(18.695, 19.338, 15.756)
+Epoch[023] train: MAE:(pitch, yaw, roll, mean)/(2.707, 3.343, 2.242, 2.764), Cost=436 sec, lr=0.000031
+Epoch[023] val  : MAE:(pitch, yaw, roll, mean)/(7.514, 8.789, 5.991, 7.431), Loss:(pitch, yaw, roll)/(178.656, 192.054, 174.607)
+Epoch[024] Batch[099/478] Speed: 304.25 samples/sec, Loss:(pitch, yaw, roll)/(19.373, 19.947, 16.310)
+Epoch[024] Batch[199/478] Speed: 276.42 samples/sec, Loss:(pitch, yaw, roll)/(18.693, 19.144, 15.726)
+Epoch[024] Batch[299/478] Speed: 292.51 samples/sec, Loss:(pitch, yaw, roll)/(18.511, 18.566, 15.540)
+Epoch[024] Batch[399/478] Speed: 270.70 samples/sec, Loss:(pitch, yaw, roll)/(18.314, 18.343, 15.445)
+Epoch[024] train: MAE:(pitch, yaw, roll, mean)/(2.668, 3.244, 2.208, 2.707), Cost=434 sec, lr=0.000014
+Epoch[024] val  : MAE:(pitch, yaw, roll, mean)/(7.489, 7.656, 5.927, 7.024), Loss:(pitch, yaw, roll)/(172.935, 165.870, 171.603)
+Min val mean MAE! save model!
+Epoch[025] Batch[099/478] Speed: 314.00 samples/sec, Loss:(pitch, yaw, roll)/(19.260, 22.583, 16.436)
+Epoch[025] Batch[199/478] Speed: 319.92 samples/sec, Loss:(pitch, yaw, roll)/(18.468, 22.201, 15.737)
+Epoch[025] Batch[299/478] Speed: 289.34 samples/sec, Loss:(pitch, yaw, roll)/(18.199, 20.880, 15.411)
+Epoch[025] Batch[399/478] Speed: 261.37 samples/sec, Loss:(pitch, yaw, roll)/(18.177, 20.326, 15.429)
+Epoch[025] train: MAE:(pitch, yaw, roll, mean)/(2.652, 3.435, 2.202, 2.763), Cost=421 sec, lr=0.000004
+Epoch[025] val  : MAE:(pitch, yaw, roll, mean)/(7.340, 7.874, 5.959, 7.058), Loss:(pitch, yaw, roll)/(168.820, 165.933, 171.587)
+Epoch[026] Batch[099/478] Speed: 349.67 samples/sec, Loss:(pitch, yaw, roll)/(18.351, 20.070, 15.475)
+Epoch[026] Batch[199/478] Speed: 705.96 samples/sec, Loss:(pitch, yaw, roll)/(18.457, 18.162, 15.443)
+Epoch[026] Batch[299/478] Speed: 701.74 samples/sec, Loss:(pitch, yaw, roll)/(18.406, 18.201, 15.525)
+Epoch[026] Batch[399/478] Speed: 704.73 samples/sec, Loss:(pitch, yaw, roll)/(18.207, 18.120, 15.385)
+Epoch[026] train: MAE:(pitch, yaw, roll, mean)/(2.661, 3.223, 2.190, 2.691), Cost=213 sec, lr=0.000001
+Epoch[026] val  : MAE:(pitch, yaw, roll, mean)/(7.383, 8.405, 5.915, 7.234), Loss:(pitch, yaw, roll)/(169.628, 184.384, 175.636)
+Epoch[027] Batch[099/478] Speed: 675.78 samples/sec, Loss:(pitch, yaw, roll)/(17.508, 19.789, 14.762)
+Epoch[027] Batch[199/478] Speed: 714.14 samples/sec, Loss:(pitch, yaw, roll)/(17.746, 18.991, 14.981)
+Epoch[027] Batch[299/478] Speed: 713.53 samples/sec, Loss:(pitch, yaw, roll)/(17.800, 19.290, 15.002)
+Epoch[027] Batch[399/478] Speed: 711.28 samples/sec, Loss:(pitch, yaw, roll)/(17.712, 19.084, 14.939)
+Epoch[027] train: MAE:(pitch, yaw, roll, mean)/(2.651, 3.266, 2.200, 2.706), Cost=176 sec, lr=0.000001
+Epoch[027] val  : MAE:(pitch, yaw, roll, mean)/(7.408, 7.886, 5.934, 7.076), Loss:(pitch, yaw, roll)/(172.989, 173.808, 173.294)
+Epoch[028] Batch[099/478] Speed: 688.10 samples/sec, Loss:(pitch, yaw, roll)/(17.734, 19.153, 14.918)
+Epoch[028] Batch[199/478] Speed: 710.22 samples/sec, Loss:(pitch, yaw, roll)/(17.688, 17.288, 14.983)
+Epoch[028] Batch[299/478] Speed: 705.34 samples/sec, Loss:(pitch, yaw, roll)/(17.744, 17.764, 14.884)
+Epoch[028] Batch[399/478] Speed: 706.85 samples/sec, Loss:(pitch, yaw, roll)/(17.728, 17.975, 14.911)
+Epoch[028] train: MAE:(pitch, yaw, roll, mean)/(2.654, 3.187, 2.182, 2.674), Cost=176 sec, lr=0.000001
+Epoch[028] val  : MAE:(pitch, yaw, roll, mean)/(7.440, 7.995, 5.854, 7.096), Loss:(pitch, yaw, roll)/(175.173, 169.164, 172.797)
+Epoch[029] Batch[099/478] Speed: 273.86 samples/sec, Loss:(pitch, yaw, roll)/(18.107, 18.301, 15.608)
+Epoch[029] Batch[199/478] Speed: 310.38 samples/sec, Loss:(pitch, yaw, roll)/(18.203, 18.839, 15.559)
+Epoch[029] Batch[299/478] Speed: 364.81 samples/sec, Loss:(pitch, yaw, roll)/(17.961, 20.017, 15.277)
+Epoch[029] Batch[399/478] Speed: 303.46 samples/sec, Loss:(pitch, yaw, roll)/(18.140, 19.704, 15.353)
+Epoch[029] train: MAE:(pitch, yaw, roll, mean)/(2.654, 3.366, 2.201, 2.740), Cost=400 sec, lr=0.000001
+Epoch[029] val  : MAE:(pitch, yaw, roll, mean)/(7.426, 7.315, 5.882, 6.874), Loss:(pitch, yaw, roll)/(170.707, 158.021, 172.682)
+Min val mean MAE! save model!
+
+
+Min mean MAE: 6.874, Epoch: 29.000
