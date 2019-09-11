@@ -63,8 +63,8 @@ def crop(img, bbox):
     bb_w, bb_h = bbox[2]-bbox[0], bbox[3]-bbox[1]
     x_min =np.clip(bbox[0]-0.6*k*abs(bb_w), 0, w)
     y_min =np.clip(bbox[1]-0.6*k*abs(bb_h), 0, h)
-    x_max =np.clip(bbox[2]-0.6*k*abs(bb_w), 0, w)
-    y_max =np.clip(bbox[3]-0.6*k*abs(bb_h), 0, h)
+    x_max =np.clip(bbox[2]+0.6*k*abs(bb_w), 0, w)
+    y_max =np.clip(bbox[3]+0.6*k*abs(bb_h), 0, h)
     img = img[int(y_min):int(y_max), int(x_min):int(x_max), :]
     roi_w = x_max - x_min
     roi_h = y_max - y_min
@@ -114,8 +114,8 @@ def get_args():
     parser.add_argument('--use_gpu', type=int, default=0)
     parser.add_argument('--detector', type=str, default='mtcnn', help='mtcnn, dlib')
     # mxnet 
-    parser.add_argument('--json', type=str, default='./weight/v3_small_alpha1/best_pose-symbol.json')
-    parser.add_argument('--params', type=str, default='./weight/v3_small_alpha1/best_pose-0000.params')
+    parser.add_argument('--json', type=str, default='./weight/v3_large_alpha2/best_pose-symbol.json')
+    parser.add_argument('--params', type=str, default='./weight/v3_large_alpha2/best_pose-0000.params')
     args = parser.parse_args()
     return args
 

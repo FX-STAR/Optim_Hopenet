@@ -26,10 +26,10 @@ python train.py --bs 128 --lr 0.001 --alpha 1 --lr_type cos --version small --wi
 
 |      Backone      | MAE(alpha=1) | MAE(alpha=2) |  Mb  |
 | :---------------: | :----------: | :----------: | :--: |
-|    MobileFaceNet  |    6.998     |    *6.874*     | 4.1  |
-|    MobileNetv2    |    6.963     |    6.829     | 9.8  |
-| MobileNetv3 small |    6.789     |    7.088     | 7.5  |
-| MobileNetv3 large |    6.625     |    6.460     | 17.5 |
+|   MobileFaceNet   |    6.760     |    6.876     | 4.1  |
+|    MobileNetv2    |    6.510     |    6.549     | 9.8  |
+| MobileNetv3 small |    6.660     |    6.706     | 7.5  |
+| MobileNetv3 large |    6.293     |    6.145     | 17.5 |
 
 
 ### Test

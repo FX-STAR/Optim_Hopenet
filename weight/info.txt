@@ -1,5 +1,10 @@
-*v3_large_alpha1  17 MAE=6.625 lr=le-3 end=1e-6
+FaceNet_alpha1   28 MAE=6.760 lr=1e-3 end=1e-6
+FaceNet_alpha2   24 MAE=6.876 lr=1e-3 end=1e-6
+v2_alpha1        22 MAE=6.510 lr=1e-3 end=1e-6
+v2_alpha2        24 MAE=6.549 lr=1e-3 end=1e-6
+v3_small_alpha1  27 MAE=6.660 lr=1e-3 end=1e-6
+v3_small_alpha2  21 MAE=6.706 lr=1e-3 end=1e-6
+v3_large_alpha1  22 MAE=6.293 lr=le-3 end=1e-6
+v3_large_alpha2  29 MAE=6.145 lr=le-3 end=1e-6
 
-*v3_small_alpha1  26 MAE=6.789 lr=1e-2 end=1e-6
 
-*v2_alpha1        18 MAE=6.963 lr=1e-3 end=1e-6
